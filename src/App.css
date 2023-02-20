@@ -1,5 +1,73 @@
 .App {
+  min-height: 460px;
   text-align: center;
+  margin: 20px;
+  /* border: 1px solid red; */
+  border-radius: 5px;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.effect {
+  cursor: pointer;
+}
+
+.effect:hover {
+  color: white;
+}
+
+
+input {
+  width: 232px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid red;
+  background-color: black;
+  color: white;
+  outline: none;
+  padding-left: 18px;
+}
+
+.hide {
+  width: 250px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid red;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  --webkit-appearance: none;
+
+}
+
+.hide input {
+  width: 190px;
+  border: none;
+  background-color: none;
+  padding-left: 5px;
+
+}
+
+.hide input:focus {
+  border: none;
+  --webkit-appearance: none;
+  outline: none;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+  cursor: pointer;
 }
 
 .App-logo {
@@ -32,7 +100,19 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.gps {
+  background-color: #282c34;
+  border: 2px solid rgb(125, 122, 122);
+  border-radius: 5px;
+}
+.App div p.error{
+  color: red;
+  margin: 2px;
+ 
 }

@@ -1,0 +1,68 @@
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border-top: 1px solid white;
+    border-bottom: 1px solid rgb(109, 108, 108);
+}
+
+tr:nth-child(1) {
+    border-top: 1px solid black;
+    border-bottom: 1px solid rgb(100, 88, 88);
+}
+
+.details {
+    width: 90%;
+    margin: 2px;
+    padding-top: 5px;
+
+
+}
+
+.dataShow {
+
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid blueviolet; */
+}
+
+.dataShow table {
+    width: 40%;
+}
+
+.details table tr {
+    border: 1px solid white;
+
+
+}
+
+.details table tr th {
+    padding: 10px;
+
+}
+
+.details table,
+tr,
+th,
+td {
+    /* border: 1px solid white; */
+    padding: 10px;
+}
+
+.details table {
+
+    /* border: 2px solid white; */
+
+}
+
+/* .saurav:hover{
+      content: "details";
+      background-color: red;
+  } */
+.header {
+    margin: 0;
+    padding-right: 70%;
+    text-align: left;
+    font-size: 20px;
+}
